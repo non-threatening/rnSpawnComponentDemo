@@ -16,7 +16,7 @@
     "react": "16.13.1",
     "react-native": "0.63.3",
     "react-native-svg": "^12.1.0",
-    "rn-spawn-component": "^0.0.2"
+    "rn-spawn-component": "^0.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
