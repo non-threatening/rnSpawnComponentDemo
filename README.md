@@ -17,7 +17,7 @@ yarn start
 ```sh
 yarn react-native run-android
 ```
-> or
+or
 ```sh
 yarn react-native run-ios
 ```
