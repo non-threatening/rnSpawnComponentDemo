@@ -12,7 +12,14 @@ Then copy ```App.js```, ```MyComponent.js``` and ```package.json``` to the proje
 ```sh
 yarn install
 yarn start
+```
+> and
+```sh
 yarn react-native run-android
+```
+> or
+```sh
+yarn react-native run-ios
 ```
 
 ---
