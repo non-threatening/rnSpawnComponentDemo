@@ -8,8 +8,8 @@ import {
   Text,
   View,
 } from 'react-native';
-// import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
-// import {faCoffee} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
+import {faCoffee} from '@fortawesome/free-solid-svg-icons';
 
 import {MyComponent} from './MyComponent';
 import {
@@ -59,11 +59,14 @@ const App: () => React$Node = () => {
               </View>
 
               <RemoveAll
-                // prepend={<FontAwesomeIcon icon={faCoffee} />}
-                label=" them "
+                prepend={<FontAwesomeIcon icon={faCoffee} size={32} />}
+                label=" Remove "
                 append={<Text>all</Text>}
-                style={{backgroundColor: 'thistle', borderRadius: 7}}
-                textStyle={{color: 'red', fontSize: 28}}
+                style={{
+                  backgroundColor: 'thistle',
+                  borderRadius: 10,
+                }}
+                textStyle={{color: 'brown', fontSize: 21}}
               />
             </View>
           </View>

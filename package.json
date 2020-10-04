@@ -10,8 +10,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.31",
+    "@fortawesome/free-solid-svg-icons": "^5.15.0",
+    "@fortawesome/react-native-fontawesome": "^0.2.6",
     "react": "16.13.1",
     "react-native": "0.63.3",
+    "react-native-svg": "^12.1.0",
     "rn-spawn-component": "^0.0.2"
   },
   "devDependencies": {
