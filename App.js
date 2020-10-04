@@ -41,7 +41,7 @@ const App: () => React$Node = () => {
                 name="text"
                 spawn={
                   <View>
-                    <Text>Simple inline spawn..</Text>
+                    <Text>Simple inline spawn</Text>
                   </View>
                 }
               />
