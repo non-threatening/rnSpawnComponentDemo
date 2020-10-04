@@ -13,7 +13,7 @@ export const MyComponent = (props) => {
         height: 80,
       }}>
       <View style={{alignItems: 'center'}}>
-        <Text>{spawnNum}</Text>
+        <Text>spawnNumber: {spawnNum}</Text>
         <RemoveSpawn spawn={spawnNum} label={'Kill Me'} />
       </View>
     </View>

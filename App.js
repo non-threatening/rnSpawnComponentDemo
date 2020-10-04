@@ -58,16 +58,24 @@ const App: () => React$Node = () => {
                 <ClearSpawns name="myComponent" label="Clear Spawns" />
               </View>
 
-              <RemoveAll
-                prepend={<FontAwesomeIcon icon={faCoffee} size={32} />}
-                label=" Remove "
-                append={<Text>all</Text>}
-                style={{
-                  backgroundColor: 'thistle',
-                  borderRadius: 10,
-                }}
-                textStyle={{color: 'brown', fontSize: 21}}
-              />
+              <View style={styles.row}>
+                <RemoveAll
+                  prepend={<FontAwesomeIcon icon={faCoffee} size={32} />}
+                  label=" Remove "
+                  android_ripple={{
+                    color: 'white',
+                    radius: 10,
+                  }}
+                  append={<Text>all</Text>}
+                  buttonColor={'thistle'}
+                  pressedColor={'thistle'}
+                  style={{
+                    borderRadius: 10,
+                    width: 300,
+                  }}
+                  textStyle={{color: 'brown', fontSize: 21}}
+                />
+              </View>
             </View>
           </View>
         </SafeAreaView>
