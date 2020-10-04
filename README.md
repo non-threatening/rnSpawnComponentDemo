@@ -7,9 +7,13 @@ This is an example react-native project for [rn-spawn-component](https://github.
 If cloning the repo isn't working for you, an easy way to get up and running is to run:
 ```sh
 npx react-native init AwesomeProject
-yarn add rn-spawn-component
 ```
-Then copy ```App.js``` and ```MyComponent.js``` to the project and run as usual.
+Then copy ```App.js```, ```MyComponent.js``` and ```package.json``` to the project and run:
+```sh
+yarn install
+yarn start
+yarn react-native run-android
+```
 
 ---
 ![Demo.gif](https://github.com/non-threatening/rnSpawnComponentDemo/blob/master/demo.gif?raw=true)
