@@ -12,4 +12,4 @@ yarn add rn-spawn-component
 Then copy ```App.js``` and ```MyComponent.js``` to the project and run as usual.
 
 ---
-![Demo.gif](https://github.com/non-threatening/rnSpawnComponentDemo/blob/master/Demo_001.GIF?raw=true)
+![Demo.gif](https://github.com/non-threatening/rnSpawnComponentDemo/blob/master/demo.gif?raw=true)
