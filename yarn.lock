@@ -5984,10 +5984,10 @@ rimraf@~2.2.6:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
 
-rn-spawn-component@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/rn-spawn-component/-/rn-spawn-component-0.0.2.tgz#bdb7065e717407b08843556e8606580d9e33df26"
-  integrity sha512-tsBPp6rstRiVQqIf3EJ354UizOdJMxJig+nsIZP8r9FDZ5TfMvADscr+so71OqXmblxJMZtd0DG7euFmS4u9dA==
+rn-spawn-component@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/rn-spawn-component/-/rn-spawn-component-0.0.8.tgz#876cbc6452878d095618ef8a3592fdab205450b9"
+  integrity sha512-+HEs6FtR3arwCy/ogo8spLdnWh8g4I+nX8sOJPifSSSVcABorEayEfxKJ87X96DLsaXj5dDOxzImmg8JsNtMcQ==
 
 rsvp@^4.8.4:
   version "4.8.5"
