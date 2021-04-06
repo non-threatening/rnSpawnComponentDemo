@@ -3,7 +3,7 @@ import React from 'react';
 import {Text, View} from 'react-native';
 import {RemoveSpawn} from 'rn-spawn-component';
 
-export const MyComponent = (props) => {
+export const MyComponent = props => {
   const spawnNum = props.spawnNumber;
   return (
     <View
