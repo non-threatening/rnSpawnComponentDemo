@@ -1,4 +1,4 @@
-package com.rnspawncomponentdemo;
+package com.spawndemo;
 
 import com.facebook.react.ReactActivity;
 
